@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Primary Meta Tags -->
+    <title>Keluarga Besar H. Koentjoro | Warisan & Kebersamaan</title>
+    <meta name="title" content="Keluarga Besar H. Koentjoro | Warisan & Kebersamaan" />
+    <meta name="description" content="Situs resmi Keluarga Besar H. Koentjoro. Menghubungkan generasi, merayakan sejarah, dan mempererat silaturahmi." />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/src/style.css">
+  </head>
+  <body class="locked">
+    <!-- Login Overlay -->
+    <div id="login-overlay" class="login-overlay">
+      <div class="login-card">
+        <div class="login-logo">H. Koentjoro</div>
+        <h2>Akses Terbatas Keluarga</h2>
+        <p>Silakan masukkan kata sandi keluarga untuk masuk.</p>
+        <form id="login-form">
+          <input type="password" id="family-password" placeholder="Kata Sandi..." required>
+          <button type="submit" class="btn-primary">Masuk &rarr;</button>
+          <p id="login-error" class="error-msg"></p>
+        </form>
+      </div>
+    </div>
+
+    <div id="app" class="main-wrapper">
+      <!-- Navigation -->
+      <nav id="main-nav" class="glass-nav">
+        <div class="nav-container">
+          <a href="#" class="nav-logo">H. Koentjoro</a>
+          <ul class="nav-links">
+            <li><a href="#hero">Beranda</a></li>
+            <li><a href="#history">Sejarah</a></li>
+            <li><a href="#family-tree">Silsilah</a></li>
+            <li><a href="#gallery">Galeri</a></li>
+          </ul>
+          <button class="nav-toggle" aria-label="Toggle Menu">
+            <span></span>
+          </button>
+        </div>
+      </nav>
+
+      <!-- Main Content -->
+      <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+          <div class="hero-overlay"></div>
+          <div class="hero-content">
+            <h1 class="reveal-text">Keluarga Besar<br><span class="highlight">H. Koentjoro</span></h1>
+            <p class="fade-in">Merajut kasih, meneruskan warisan, dan menjaga silaturahmi antar generasi.</p>
+            <div class="hero-actions">
+              <a href="#history" class="btn-primary">Jelajahi Sejarah</a>
+              <a href="#family-tree" class="btn-secondary">Lihat Silsilah</a>
+            </div>
+          </div>
+          <div class="scroll-indicator">
+            <div class="mouse"></div>
+            <span>Gulir ke bawah</span>
+          </div>
+        </section>
+
+        <!-- History Section -->
+        <section id="history" class="section history-section">
+          <div class="container">
+            <div class="section-header">
+              <span class="sub-title">Legacy</span>
+              <h2>Sejarah & Jejak Langkah</h2>
+            </div>
+            <div class="history-grid">
+              <div class="history-text">
+                <p>H. Koentjoro dikenal sebagai sosok yang inspiratif, pembimbing, dan pilar utama keluarga. Jejak langkah beliau bukan sekadar cerita masa lalu, melainkan pondasi bagi nilai-nilai yang kita pegang teguh hingga hari ini.</p>
+                <p>Melalui dedikasi dan kasih sayang, beliau berhasil membangun pondasi kekeluargaan yang kokoh, menyatukan berbagai cabang keluarga dalam satu visi kebersamaan yang harmonis.</p>
+              </div>
+              <div class="history-image">
+                <div class="image-wrapper">
+                  <img id="legacy-img" src="" alt="Warisan H. Koentjoro" class="reveal-img">
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Family Tree Section -->
+        <section id="family-tree" class="section tree-section dark-section">
+          <div class="container">
+            <div class="section-header centered">
+              <span class="sub-title">Lineage</span>
+              <h2>Silsilah Keluarga Besar</h2>
+              <p class="section-desc">Menelusuri akar dan cabang keluarga dari generasi ke generasi.</p>
+            </div>
+            
+            <div class="tree-container">
+              <!-- Main Root -->
+              <div class="tree-root">
+                <div class="node-card founder">
+                  <div class="node-badge">Leluhur</div>
+                  <h3>H. Koentjoro</h3>
+                  <p>19XX - 20XX</p>
+                </div>
+              </div>
+
+              <!-- Generations -->
+              <div class="tree-grid">
+                <!-- Branch 1 -->
+                <div class="branch reveal-on-scroll">
+                  <div class="branch-label">Putri Pertama</div>
+                  <div class="node-card branch-node">
+                    <h4>Purwanindyah Hestuprapti</h4>
+                    <div class="grandchild-info">
+                      <span class="count">1</span> Anak Laki-laki
+                    </div>
+                    <div class="member-list">
+                      <ul>
+                        <li>Rizky</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Branch 2 -->
+                <div class="branch reveal-on-scroll">
+                  <div class="branch-label">Putri Kedua</div>
+                  <div class="node-card branch-node">
+                    <h4>Tri Retno Wulandari</h4>
+                    <div class="grandchild-info">
+                      <span class="count">4</span> Anak Laki-laki
+                    </div>
+                    <div class="member-list">
+                      <ul>
+                        <li>Danang</li>
+                        <li>Adit</li>
+                        <li>Sanjaya</li>
+                        <li>Sejati</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Branch 3 -->
+                <div class="branch reveal-on-scroll">
+                  <div class="branch-label">Putri Terakhir</div>
+                  <div class="node-card branch-node">
+                    <h4>Dewi Catur Linawati</h4>
+                    <div class="grandchild-info">
+                      <span class="count">3</span> Laki-laki & <span class="count">1</span> Perempuan
+                    </div>
+                    <div class="member-list">
+                      <ul>
+                        <li>Adhwa <span class="gender-tag">(Perempuan)</span></li>
+                        <li>Rafa</li>
+                        <li>Fazil</li>
+                        <li>Faqih</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="tree-cta">
+                <button class="btn-outline">Unduh Silsilah Lengkap (PDF)</button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+        <!-- Gallery Section -->
+        <section id="gallery" class="section gallery-section">
+          <div class="container">
+            <div class="section-header">
+              <span class="sub-title">Memories</span>
+              <h2>Galeri Kenangan</h2>
+            </div>
+            <div class="masonry-gallery" id="photo-gallery">
+              <!-- Dynamic images will be here -->
+            </div>
+          </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact-section dark-section">
+          <div class="container">
+            <div class="contact-card reveal-on-scroll">
+              <div class="section-header centered">
+                <span class="sub-title">Connect</span>
+                <h2>Hubungi Pengurus Keluarga</h2>
+                <p>Punya info terbaru atau foto kenangan yang ingin dibagikan? Kirimkan pesan Anda.</p>
+              </div>
+              <form class="contact-form">
+                <div class="form-grid">
+                  <input type="text" placeholder="Nama Lengkap" required>
+                  <input type="email" placeholder="Alamat Email" required>
+                </div>
+                <textarea placeholder="Pesan atau Informasi Terbaru..." rows="5" required></textarea>
+                <button type="submit" class="btn-primary">Kirim Pesan</button>
+              </form>
+            </div>
+          </div>
+        </section>
+        <!-- Quiz Section -->
+        <section id="quiz" class="section quiz-section">
+          <div class="container">
+            <div class="quiz-container reveal-on-scroll">
+              <div class="section-header centered">
+                <span class="sub-title">Fun Time</span>
+                <h2>Kuis Keluarga</h2>
+                <p>Seberapa kenal kamu dengan sejarah Keluarga Besar H. Koentjoro?</p>
+              </div>
+              <div id="quiz-content" class="quiz-content">
+                <!-- Quiz question will be injected here -->
+                <div class="question-card">
+                   <h3 id="question-text">Siap untuk memulai kuis?</h3>
+                   <div id="options-list" class="options-grid">
+                     <button class="btn-quiz-start" onclick="startQuiz()">Mulai Kuis Sekarang</button>
+                   </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <!-- Quiz Feedback Modal -->
+      <div id="quiz-modal" class="quiz-modal">
+        <div class="modal-content">
+          <div id="modal-icon" class="modal-icon"></div>
+          <h2 id="modal-title"></h2>
+          <p id="modal-message"></p>
+          <button class="btn-primary" onclick="closeQuizModal()">Lanjut &rarr;</button>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <footer class="main-footer">
+        <div class="container">
+          <div class="footer-content">
+            <div class="footer-info">
+              <h3>H. Koentjoro</h3>
+              <p>Menjaga warisan untuk generasi mendatang.</p>
+            </div>
+            <div class="footer-links">
+              <h4>Tautan Cepat</h4>
+              <ul>
+                <li><a href="#hero">Beranda</a></li>
+                <li><a href="#history">Sejarah</a></li>
+                <li><a href="#family-tree">Silsilah</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-bottom">
+            <p>&copy; 2026 Keluarga Besar H. Koentjoro. Dibuat dengan penuh rasa hormat.</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
+
