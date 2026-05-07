@@ -156,7 +156,7 @@ img {
 .hero-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)), url('/hero-bg-real.png') no-repeat center center/cover;
+  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)), url('./assets/hero-bg-real.png') no-repeat center center/cover;
   z-index: -1;
   transform: scale(1.1);
   transition: transform 10s ease-out;

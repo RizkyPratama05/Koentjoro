@@ -11,14 +11,14 @@ window.addEventListener('scroll', () => {
 // Dynamic Gallery Population
 const gallery = document.getElementById('photo-gallery');
 const images = [
-  '/gallery/fam1.jpg',
-  '/gallery/fam2.jpg',
-  '/gallery/fam3.jpg',
-  '/gallery/fam4.jpg',
-  '/gallery/fam5.jpg',
-  '/gallery/fam6.jpg',
-  '/gallery/fam7.jpg',
-  '/gallery/fam8.jpg'
+  'gallery/fam1.jpg',
+  'gallery/fam2.jpg',
+  'gallery/fam3.jpg',
+  'gallery/fam4.jpg',
+  'gallery/fam5.jpg',
+  'gallery/fam6.jpg',
+  'gallery/fam7.jpg',
+  'gallery/fam8.jpg'
 ];
 
 images.forEach((src, index) => {
@@ -30,7 +30,7 @@ images.forEach((src, index) => {
 
 // History Image Placeholder
 const legacyImg = document.getElementById('legacy-img');
-if (legacyImg) legacyImg.src = '/gallery/fam3.jpg';
+if (legacyImg) legacyImg.src = 'gallery/fam3.jpg';
 
 // Intersection Observer for Scroll Reveals
 const observerOptions = {
